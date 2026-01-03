@@ -62,7 +62,7 @@ social-network-links:
   # whatsapp: 
 #  medium: 
 #  reddit: 
-linkedin: joanne-dong
+  linkedin: joanne-dong
 #  xing: 
 #  stackoverflow:
 #  snapchat: 
@@ -76,7 +76,7 @@ linkedin: joanne-dong
 #  calendly: 
 #  mastodon: 
 #  bluesky: 
-ORCID: 0000-0001-0002-0003
+  ORCID: 0000-0001-0002-0003
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: 
