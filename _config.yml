@@ -10,21 +10,21 @@
 ############################
 
 # Name of website
-title: My website
+title: Joanne Dong
 
 # Your name to show in the footer
-author: Some Person
+author: Joanne Dong
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Projects: "projects"
+  # #Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # #Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "face.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -50,43 +50,43 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
-#  medium: yourname
-#  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
-#  ORCID: your ORCID ID
+  # email: "someone@example.com"
+  # rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  # facebook: 
+  github: infiniteplane
+  # twitter: 
+  # patreon: 
+  # youtube: 
+  # whatsapp: 
+#  medium: 
+#  reddit: 
+linkedin: joanne-dong
+#  xing: 
+#  stackoverflow:
+#  snapchat: 
+#  instagram: 
+#  spotify: 
+#  telephone:
+#  steam: 
+#  twitch: 
+#  yelp: 
+#  telegram: 
+#  calendly: 
+#  mastodon: 
+#  bluesky: 
+ORCID: 0000-0001-0002-0003
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
-#  itchio: yourname
-#  untappd: yourname
+#  kaggle: 
+#  hackerrank: 
+#  gitlab: 
+#  itchio: 
+#  untappd: 
 #  strava: youruserid
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: 
 
 ###########################
 # --- General options --- #
@@ -94,18 +94,18 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
   vk: false
   reddit: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+#url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
-title-on-all-pages: true
+title-on-all-pages: false
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -124,7 +124,7 @@ edit_page_button: true
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
-# See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
+# See https://github.com//beautiful-jekyll/issues/765 to understand the issue this setting can solve
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
@@ -210,7 +210,7 @@ footer-hover-col: "#0085A1"
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
 #utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository: # GitHub username/repository eg. "/beautiful-jekyll"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
@@ -222,7 +222,7 @@ footer-hover-col: "#0085A1"
 # instructions. For any support with staticman please direct questions to staticman and
 # not to BeautifulJekyll.
 #staticman:
-#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository : # GitHub username/repository eg. "/beautiful-jekyll"
 #  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
 #  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
 #  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well)
@@ -236,7 +236,7 @@ footer-hover-col: "#0085A1"
 # See more details about giscus and each of the following parameters at https://giscus.app
 #giscus:
 #  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository: # GitHub username/repository eg. "/beautiful-jekyll"
 #  repository-id: # ID of your repository, retrieve this info from https://giscus.app
 #  category: Announcements # Category name of your GitHub Discussion posts
 #  category-id: # ID of your category, retrieve this info from https://giscus.app
@@ -277,8 +277,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      comments: false  # add comments to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
